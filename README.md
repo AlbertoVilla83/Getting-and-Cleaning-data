@@ -1,11 +1,9 @@
 # Human Activity Recognition Key Parameters (means and standard  deviation) Using Smartphones Dataset
 ### Version 1.0
 
-title: "Readme"
-author: "Alberto Villa"
-date: "01 agosto 2017"
-output: html_document
-alberto.villa01@gmail.com
+title: "Readme" <br>
+author: "Alberto Villa"<br>
+e-mail: alberto.villa01@gmail.com<br>
 
 
 ## Data Description 
