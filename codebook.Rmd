@@ -1,6 +1,6 @@
-==================================
-          Original data
-==================================
+
+ #Original data
+
 
 The features selected for this database were obtained by modification of the original data set [1], distributed by AS-IS 
 on their website (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
@@ -10,9 +10,8 @@ Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. Interna
 Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
 
-==================================
-         Data set description
-==================================
+ #Data set description
+
 Original data come from the accelerometer and gyroscope 3-axial raw signals, captured in the time domain captured at a 
 constant rate of 50 Hz. 
 A number of features have been derived starting from these signals (accelerometer signal was separated into body and 
@@ -29,9 +28,8 @@ For example, for subject #1, 6 different mean have been computed, one per activi
 
 
 
-==================================
-Original Data set Full description
-==================================
+ #Original Data set Full description
+
 
 Original data come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain 
 signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. 
