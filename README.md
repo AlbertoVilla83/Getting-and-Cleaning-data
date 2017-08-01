@@ -5,14 +5,8 @@ title: "Readme"
 author: "Alberto Villa"
 date: "01 agosto 2017"
 output: html_document
-
-
-
-
-==================================================================
-Alberto Villa
 alberto.villa01@gmail.com
-==================================================================
+
 
 ## Data Description 
 
