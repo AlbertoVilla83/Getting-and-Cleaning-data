@@ -1,15 +1,14 @@
-# Getting-and-Cleaning-data
+# Human Activity Recognition Key Parameters (means and standard  deviation) Using Smartphones Dataset
+### Version 1.0
 
----
 title: "Readme"
 author: "Alberto Villa"
 date: "01 agosto 2017"
 output: html_document
----
 
-==================================================================
-# Human Activity Recognition Key Parameters (means and standard  deviation) Using Smartphones Dataset
-### Version 1.0
+
+
+
 ==================================================================
 Alberto Villa
 alberto.villa01@gmail.com
@@ -36,28 +35,21 @@ From all fetures, the mean and standard deviation were extracted and their avera
 180 values, 6 tasks per 30 subjects).
 See 'codebook.txt' for more details. 
 
+
 ### For each record it is provided:
-
-
 * The activity performed
 * An identifier of the subject who carried out the experiment.
 * A 79-feature vector including means and standard deviation average values with time and frequency domain variables.  
 
 
 ### The dataset includes the following files:
-=========================================
-
 * 'README.txt' : This file
-
 * 'codebook.txt': Shows information about the variables used on the feature vector.
-
 * 'tidy_data.csv': The process data set.
-
 * 'runAnalysis.r': The R script used to process the original data set and obtain the data.
 
 
 ### Notes: 
-======
 * Original features from [1] were normalized and bounded within [-1,1].
 * Each feature vector is a row on the text file.
 
@@ -65,7 +57,7 @@ For more information about the processed dataset contact: alberto.villa01@gmail.
 For more information about the original dataset contact: activityrecognition@smartlab.ws
 
 ### License:
-========
+
 Use of the original dataset in publications must be acknowledged by referencing the following publication [1] 
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
