@@ -3,14 +3,15 @@ rm(list = ls())
 library(dplyr)
 
 #--------------------------------------------------
-# Download and unzip the file
+# Download and unzip the file - Needed only if data not available therefore commented
 #--------------------------------------------------
-url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(url,
-              destfile='samsung_acc.zip',
-              method="auto", # for OSX / Linux 
-              mode="wb") # "wb" means "write binary," and is used for binary files
-unzip(zipfile = "samsung_acc.zip") # unpack the files into subdirectories 
+# url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+# download.file(url,
+#              destfile='samsung_acc.zip',
+#              method="auto", # for OSX / Linux 
+#              mode="wb") # "wb" means "write binary," and is used for binary files
+unzip(zipfile = "samsung_acc_train.zip") # unpack the files into subdirectories 
+unzip(zipfile = "samsung_acc_test.zip") # unpack the files into subdirectories 
 
 
 #--------------------------------------------------
@@ -114,4 +115,4 @@ colnames(tidy_data)[2] <- "Task"
 means_tidy_data <- tidy_data %>% group_by(Task,Subject) %>%
   summarize_all(mean, na.rm = TRUE)
   
-write.table(means_tidy_data, file = "tidy_data_set.txt", row.name=FALSE)
+write.table(means_tidy_data, file = "tidy_data_set.txt", row.names = FALSE)
